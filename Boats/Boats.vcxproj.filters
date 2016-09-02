@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iPhysicsComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iPhysicsComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sprites\ship_big_gun.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_big_gun_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_big_gun_dual.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_big_gun_dual_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_big_gun_dual_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_big_gun_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_base.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_base_big.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_base_big_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_base_dark.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_base_dark_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_base_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_dual_gray.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_dual_gray_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_dual_gray_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_dual_green.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_dual_green_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_dual_green_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_gray.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_gray_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_gray_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_green.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_green_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_green_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_huge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_huge_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_huge_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_red.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_red_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_gun_red_hit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_large_body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_large_body_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_medium_body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_medium_body_b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_medium_body_b_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_medium_body_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_small_b_body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_small_body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_small_body_b_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\ship_small_body_destroyed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_big_000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_big_001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_big_002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_big_003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_big_004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_medium_000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_medium_001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_medium_002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_medium_003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_medium_004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_small_000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_small_001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_small_002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_small_003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\water_ripple_small_004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
